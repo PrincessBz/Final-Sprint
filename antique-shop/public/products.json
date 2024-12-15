@@ -1,0 +1,39 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Oduduwa Mask",
+      "price": 200,
+      "image": "/Images/Oduduwa-mask.jpg",
+      "description": "Oduduwa helmet Mask, from Benin"
+    },
+    {
+      "id": 2,
+      "name": "Plaque",
+      "price": 100,
+      "image": "/Images/Plaque.jpg",
+      "description": "Plaque, 16th/17th century"
+    },
+    {
+      "id": 3,
+      "name": "Voodoo Idols",
+      "price": 250,
+      "image": "/Images/voodoo-idols.jpg",
+      "description": "Antique voodoo idols"
+    },
+    {
+      "id": 4,
+      "name": "Yoruba Figurines",
+      "price": 150,
+      "image": "/Images/Yoruba-figurine.jpg",
+      "description": "Traditional yoruba figurines"
+    },
+    {
+      "id": 5,
+      "name": "Yoruba King",
+      "price": 500,
+      "image": "/Images/Yoruba-king.jpg",
+      "description": "Yoruba king figurine, Ife Kingdom, 11th-12th Century"
+    }
+  ]
+}

@@ -1,0 +1,181 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-image: url("./Lagos.avif");
+  background-size: cover;
+  background-attachment: fixed;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+header {
+  background-color: rgb(66, 118, 18);
+  text-align: center;
+  margin: 20px;
+}
+
+header h1 {
+  color: #fbf3f3;
+  font-family: monospace;
+}
+.Nav-links {
+  display: contents;
+  gap: 20px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+.Nav-links a {
+  color: #fcfc09;
+  font-size: 16px;
+}
+
+.Nav-links a:hover {
+  color: #555;
+}
+
+.cart {
+  position: relative;
+}
+
+.cart-page {
+  margin: 40px 20px;
+}
+
+.cart-items {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  border: 5px solid #cdb3b3;
+  padding: 19px;
+  border-radius: 10px;
+}
+
+.cart-items button {
+  padding: 10px 20px;
+  background-color: #ae5085;
+  color: white;
+  border: none;
+  border-radius: 7px;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.cart-items p {
+  color: white;
+  border: none;
+  border-radius: 5px;
+  margin-left: 10px;
+}
+
+.cart-items button:hover {
+  background-color: #555;
+}
+
+main h2 {
+  color: rgb(2, 59, 62);
+  font-family: fantasy;
+}
+
+.product-list {
+  margin: 10px;
+  margin-bottom: 20px;
+  display:grid;
+  gap: 20px;
+  align-items: center;
+ 
+}
+
+.product-item{
+align-content: center;
+cursor: pointer;
+}
+
+.product-details {
+  text-align: center;
+}
+
+
+
+.product-details button:hover {
+  background-color: #211d1c;
+}
+.product-details button {
+  background-color: #4c1809;
+  color: burlywood;
+  border: none;
+  cursor: pointer;
+  border-radius: 15px;
+  padding: 10px;
+}
+
+.product-details p {
+  font-size: 16px;
+  margin-bottom: 15px;
+  color: #7a0f71;
+  background-color: #e7e6e6;
+}
+
+.product-img{
+ border-radius: 19px;
+ border:2px solid goldenrod
+}
+
+.product-details .price {
+  font-size: 24px;
+  color: #008cba;
+  margin-bottom: 20px;
+}
+
+.checkout {
+  margin: 0 auto;
+  padding: 40px 20px;
+  max-width: 1200px;
+  text-align: center;
+}
+
+.plod {
+  width: 100px;
+  padding: 10px 10px;
+  background-color: green;
+  color: #f9f9f9;
+  border: none;
+  border-radius: 5px;
+  font-size: 12px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.plod:hover {
+  background-color: #333;
+}
+
+footer{
+  background-color: #fcf7f7;
+  color:whitesmoke;
+  padding: 20px 0;
+  text-align: center;
+  margin-top: 30px;
+  position: relative;
+  width: auto;
+}
+
+.footer-content{
+  color: #f0a500;
+  text-decoration: none;
+  margin: 0 5px;
+}
+
+.footer-content a:hover{
+  text-decoration: underline;
+}
+
+.about{
+  margin: 10px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
